@@ -1,0 +1,7 @@
+Bash
+
+#!/bin/bash
+# Skrip untuk menginstal Nginx
+sudo apt update
+sudo apt install nginx -y
+echo "Nginx berhasil diinstal."

@@ -1,0 +1,7 @@
+Bash
+
+#!/bin/bash
+# Skrip untuk mengunduh dan menginstal Netbird
+# Setup key harus dimasukkan manual setelah ini.
+curl -sL https://pkgs.netbird.io/install.sh | sudo bash
+echo "Netbird berhasil diinstal. Jalankan 'sudo netbird up --setup-key ...' untuk menghubungkan."

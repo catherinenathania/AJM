@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Coding CRM</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #2ecc71, #27ae60);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+
+    section {
+      flex: 1;
+      background: #fff;
+      color: #2c3e50;
+      border-radius: 20px 20px 0 0;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #27ae60;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .button {
+      background-color: #27ae60;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2ecc71;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 15px;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Coding CRM</h1>
+    <p>Explore the art and science of programming together</p>
+  </header>
+
+  <section>
+    <h2>What is Coding?</h2>
+    <p>
+      Coding is the process of writing instructions for computers to perform specific tasks. 
+      It powers everything from simple websites to complex artificial intelligence systems. 
+      Through coding, we turn creative ideas into functional applications that can change the world.
+    </p>
+    <a class="button" href="#">Start Exploring</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Coding CRM. All rights reserved.
+  </footer>
+
+</body>
+</html>
